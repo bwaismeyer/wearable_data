@@ -2,11 +2,11 @@
 Contains the raw data, tidy data, and supporting materials for the "Getting and Cleaning Data" class project.
 
 There are five key parts to this repository.
-1. README.md: Explains the purpose of the repository and identifies how the parts relate and can be used.
-2. raw_data.md: Contains a link to the raw data source the tidy_wearable_data originated from.
-3. tidy_data.txt: A simple text output of the final to-be-analyzed data.
-4. run_analysis.R: The R script that generates the tidy_data.txt from the raw data source.
-5. CodeBook.md: A codebook describing the variables in the final to-be-analyzed dataset (tidy_data.txt).
+- README.md: Explains the purpose of the repository and identifies how the parts relate and can be used.
+- raw_data.md: Contains a link to the raw data source the tidy_wearable_data originated from.
+- tidy_data.txt: A simple text output of the final to-be-analyzed data.
+- run_analysis.R: The R script that generates the tidy_data.txt from the raw data source.
+- CodeBook.md: A codebook describing the variables in the final to-be-analyzed dataset (tidy_data.txt).
 
 # GETTING THE TIDY DATA #
 To get the tidy_data.txt, the user needs to:
