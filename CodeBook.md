@@ -13,21 +13,31 @@ The first three variables identify the participant, data source, and activity. T
 
 There are three custom variables to explain here.
 
-subject_ID: This is the ID of the participant associated with the current observation. It was assigned by the original researchers and extracted from the subject text files.
+subject_ID (CATEGORICAL): This is the ID of the participant associated with the current observation. It was assigned by the original researchers and extracted from the subject text files.
 
-condition_ID: This variable identifies if the observation was extracted from the training data or test data.
-training = Extracted from training data.
-test = Extracted from test data.
+condition_ID (CATEGORICAL): This variable identifies if the observation was extracted from the training data or test data.
 
-activity_ID: This variable identifies which activity the observation is associated with. The levels of the variable are human readable and so are not described further.
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+- training = Extracted from training data.
+
+- test = Extracted from test data.
+
+activity_ID (CATEGORICAL): This variable identifies which activity the observation is associated with. The levels of the variable are human readable and so are not described further.
+
+- WALKING
+
+- WALKING_UPSTAIRS
+
+- WALKING_DOWNSTAIRS
+
+- SITTING
+
+- STANDING
+
+- LAYING
 
 The remaining variables are described in detail by the data source authors. The relevant portion of the description is copied below.
+
+All remaining variabes are NUMERICAL. As noted above, the variables are AVERAGES of the ORIGINAL UNITS for each measure.
 
 Feature Selection 
 =================
