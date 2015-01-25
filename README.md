@@ -22,3 +22,11 @@ This should result in a tidy_data.txt file being output to the working directory
 The script is not robust to user error. You need the supporting library installed, the working directory set correctly, and the raw data zip in the correct location.
 
 The script is not robust to changes in the raw data zip structure. Changes to this structure will likely cause the script to fail.
+
+# HOW THE SCRIPT WORKS #
+The script is well annotated but, in brief, it does the following. 
+(1) Unzips the data.
+(2) Imports and binds the various pieces of the training and test data separately and then merges these. A condition variable is added to keep track of the data source.
+(3) Imports relevant labels for the variables and sets these.
+(4) Extracts the mean and standard deviation variables.
+(5) Melts and casts the extracted values to arrive at mean value for each variable for each participant/activity combination. There are 30 participants total and 6 activites, resulting in 180 final observations.
